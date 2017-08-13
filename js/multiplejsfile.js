@@ -1,13 +1,13 @@
 // JavaScript
 var multiple = new Multiple({
   selector: '.item',
-  background: 'url(warrior.jpg)'//'linear-gradient(#273463, #8B4256)'
+  background: 'url(assets/warrior.jpg)'//'linear-gradient(#273463, #8B4256)'
 });
 
 // JavaScript
 var multiple = new Multiple({
   selector: '.item2',
-  background: 'url(scene.jpg)'//'linear-gradient(#273463, #8B4256)'
+  background: 'url(assets/scene.jpg)'//'linear-gradient(#273463, #8B4256)'
 });
 
 
