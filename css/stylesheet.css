@@ -98,84 +98,37 @@
 
 
 /* -- CONTENT -- */
-/* -- FIRST SECTOIN -- */
+
 .content{
 	display: flex;
 }
-.content1{
+.content1, .content4, .content7, .content10{
 	border: 1px solid #404040;
 	height: 200px;
 	flex: 4;
 	margin: 5px;
 
+
 }
-.content2{
+.content2, .content3, .content5, .content12{
 	border: 1px solid #404040;
 	height: 200px;
 	flex: 3;
-	margin: 5px;
-}
-.content3{
-	border: 1px solid #404040;
-	height: 200px;
-	flex: 3;
-	margin: 5px;
-}
-.content4{
-	border: 1px solid #404040;
-	height: 200px;
-	flex: 4;
 	margin: 5px;
 }
 
-/* SECOND SECTION */
-.content5{
-	border: 1px solid #404040;
-	height: 200px;
-	flex: 3;
-	margin: 5px;
-}
-.content6{
-	border: 1px solid #404040;
-	height: 200px;
-	flex: 2;
-	margin: 5px;
-}
-.content7{
-	border: 1px solid #404040;
-	height: 200px;
-	flex: 4;
-	margin: 5px;
-}
-.content8{
+.content6, .content8, .content9, .content11{
 	border: 1px solid #404040;
 	height: 200px;
 	flex: 2;
 	margin: 5px;
 }
 
-/* THIRD SECTION */
-.content9{
-	border: 1px solid #404040;
-	height: 200px;
-	flex: 2;
-	margin: 5px;
-}
-.content10{
-	border: 1px solid #404040;
-	height: 200px;
-	flex: 4;
-	margin: 5px;
-}
-.content11{
-	border: 1px solid #404040;
-	height: 200px;
-	flex: 2;
-	margin: 5px;
-}
-.content12{
-	border: 1px solid #404040;
-	height: 200px;
-	flex: 3;
-	margin: 5px;
+
+
+.content1:hover, .content2:hover, .content3:hover, .content4:hover, .content5:hover, .content6:hover, .content7:hover, .content8:hover, .content9:hover, .content10:hover, .content11:hover, .content12:hover{
+	cursor: pointer;
+	transition: 0.3s;
+	transform: scale(1.04); /*edit this number to see zoom effets.
+	NOTE : 1 = nothing happens; 0.9 = zooms out; 1.1 = zooms in*/
 }
