@@ -1,2 +1,4 @@
-# compolitics abbreviation for ComparePolitics
-#
+compolitics
+===========
+## Abbreviation for
+# Compare Politics
