@@ -1,0 +1,2 @@
+# compolitics abbreviation for ComparePolitics
+#
